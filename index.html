@@ -98,25 +98,27 @@
 
     <div id="navbar" class="navbar">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li><a href="faq.html">FAQ</a></li>
         </ul>
     </div>
 
-    <p><i>Since the dawn of time, the internet's busiest music nerd has been asking one of life's most pressing questions.</i></p>
-    <p><i>Now it's your turn to decide...</i></p>
+    <p class="p-centered"><i>
+        Since the dawn of time, the internet's busiest music nerd has been asking one of life's most pressing questions. <br>
+        Now it's your turn to decide...
+    </i></p>
 
     <h1>Is It A 10?</h1>
 
     <!-- 
         Send data to html_sample_2.html.
     -->
-    <form action="html_sample_2.html">
+    <form class="centered" action="html_sample_2.html">
         <!-- 
             Ask for text input.
         -->
-        <input type="text" name="first-name" value="Enter your first name">
-        <input type="email" value="Enter your email">
+        <input class="form-elements" type="text" name="first-name" value="Enter your first name">
+        <input class="form-elements" type="email" value="Enter your email">
         <!-- 
             You can have the user submitting data without showing it, which can
             be useful for a cookie value that you are passing in here, for 
@@ -126,7 +128,7 @@
         <!-- 
             Submit button 
         -->
-        <input type="submit" value="Submit">
+        <input class="form-elements" type="submit" value="Submit">
     </form>
 
     <h2>1. Basics</h2>
@@ -400,21 +402,22 @@
         consensus. For example, here's a <b>bad</b> review from Fantano:
 
     </p>
-    <p>
-    <iframe 
+
+    <p class="p-centered">
+    <iframe class="centered"
         width="560" height="315" src="https://www.youtube.com/embed/TBgmf37MGtg" 
         title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
         clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
     </iframe>
     </p>
 
-    <h6>
-        This is not a real website.  “This site was designed and published by 
+    <h6 style="text-align:center;">
+        This is not a real website.  This site was designed and published by 
         Nathan Hausspiegel as part of the COMP333 Software Engineering class 
         at Wesleyan University. The described platform is not publicly 
         available but rather was created as a training exercise.
     </h6>
-    
+
     <!-- 
         This page does not require any JavaScript. The import of jQuery is just
         an example how a script can be imported (locally, i.e., not via a URL).

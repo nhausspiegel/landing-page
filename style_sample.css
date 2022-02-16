@@ -29,6 +29,11 @@ body {
 */
 p {
     color:blue;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.p-centered {
     text-align: center;
 }
 
@@ -39,7 +44,7 @@ h1 {
 }
 
 h2 {
-    padding: 100px;
+    padding-left: 100px;
 }
 
 /* 
@@ -57,6 +62,17 @@ div {
 */
 #white-div {
     color: white;
+}
+
+.form-elements {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centered {
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* 
@@ -121,7 +137,7 @@ a:hover {
         Remove bullet points.
     */
     list-style: none;
-    width: 500px;
+    width: auto;
     margin: 0 auto;
     /* 
         No padding.
@@ -139,15 +155,15 @@ a:hover {
 */
 .navbar li {
     width: 150 px;
-    background-color:blue;
-    border: 1px solid white;
+    background-color:black;
     /* 
         Show the navbar elements next to each other instead of on top of each 
         other. 
     */
-    padding: 10px;
+    padding: 20px;
     display: inline-block;
-    line-height: 40px;
+    line-height: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* 
