@@ -32,6 +32,16 @@ p {
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    padding: 100px;
+}
+
 /* 
     The background of all divs should be pink.
  */
@@ -111,7 +121,7 @@ a:hover {
         Remove bullet points.
     */
     list-style: none;
-    width: 100px;
+    width: 500px;
     margin: 0 auto;
     /* 
         No padding.
