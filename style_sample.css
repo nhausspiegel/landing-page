@@ -29,6 +29,7 @@ body {
 */
 p {
     color:blue;
+    text-align: center;
 }
 
 /* 
@@ -135,7 +136,7 @@ a:hover {
         other. 
     */
     padding: 10px;
-    display: inline-flexbox;
+    display: inline-block;
     line-height: 40px;
 }
 
