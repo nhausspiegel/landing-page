@@ -110,7 +110,7 @@ a:hover {
         Remove bullet points.
     */
     list-style: none;
-    width: 0px;
+    width: 100px;
     margin: 0 auto;
     /* 
         No padding.
@@ -128,7 +128,7 @@ a:hover {
 */
 .navbar li {
     width: 150 px;
-    background-color: #000;
+    background-color:blue;
     border: 1px solid white;
     /* 
         Show the navbar elements next to each other instead of on top of each 
@@ -161,10 +161,10 @@ input {
 /* 
     Style iframes.
 */
-iframe {
+/* iframe {
     width:50%;
     height:100%;
-}
+} */
 
 .flex-container {
     display: flex;
