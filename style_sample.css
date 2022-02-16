@@ -164,7 +164,6 @@ input {
 iframe {
     width:100%;
     height:500%;
-    border: dotted;
 }
 
 .flex-container {
