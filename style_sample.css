@@ -93,6 +93,10 @@ ul {
     margin-right: auto;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 #intro-text {
     font-size: large;
 }
