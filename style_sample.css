@@ -54,6 +54,12 @@ div {
     background-color: lightblue;
 }
 
+.page {
+    background-color: #fcf181;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 /* 
     There is one white-div in our html_sample.html, which should have white 
     font. 
@@ -205,4 +211,8 @@ input {
     text-align: center;
     line-height: 75px;
     font-size: 30px;
+}
+
+header {
+    font-size: xx-large;
 }
