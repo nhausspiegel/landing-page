@@ -1,34 +1,14 @@
 /* 
     COMP 333: Software Engineering
-    Sebastian Zimmeck (szimmeck@wesleyan.edu)
+    Nathan Hausspiegel
 */
 
-/* 
-    It is a good idea to include all styles in a separate Style Sheet such as 
-    this one.
-
-    Start styling with the general elements of your page, e.g., body style, 
-    pargraph style, ... . Then, you can modify those styles for individual 
-    instances using class tags, id tags, ... .
-*/
-
-/* 
-    You can import a font from Google at https://fonts.google.com/
-*/
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
-
-/* 
-    The imported font should be applied to all body text.
-*/
 body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-/* 
-    All text in paragraphs should be blue.
-*/
 p {
     color:black;
     padding-left: 50px;
@@ -50,13 +30,6 @@ h2 {
     padding-right: 50px;
 }
 
-/* 
-    The background of all divs should be pink.
- */
-div {
-    background-color: lightblue;
-}
-
 .page {
     background-color: #fcf181;
     padding-left: 50px;
@@ -72,12 +45,7 @@ ul {
     padding-left: 100px;
     font-size: large;
 }
-/* 
-    There is one white-div in our html_sample.html, which should have white 
-    font. 
-    
-    You can refer in Style Sheets to ids using #.
-*/
+
 #white-div {
     color: white;
 }
@@ -105,19 +73,10 @@ ul {
 #intro-text {
     font-size: large;
 }
-/* 
-    You can refer in Style Sheets to classes using the dot .
-*/
+
 .padding-color-class {
-    /* 
-        Instead of color names you can also use hexdecimal values. The lower the
-        number, the darker.
-    */
+
     background-color: #000000;
-    /* 
-        You can also give colors in RGB values (0 to 255). If you are expecting 
-        older browsers using your site, refrain from using RGB formatting.
-    */
     color: rgb(100, 168, 200);
 }
 
@@ -127,80 +86,38 @@ ul {
 }
 
 .box {
-    /* 
-        Demonstrates the CSS Box Model
-    */
+
     border-width: 2px;
-    /* 
-        In order to see the border, you will need a border style.
-     */
     border-style: solid;
-    /* 
-        You can add a margin to all four borders. If there is only one value, 
-        all borders are affected You can specify in clockwise order: 
-        top, right, bottom, left.
-    */
     margin: auto;
-    /* 
-        While margins are at the outside of the border, paddings are at the 
-        inside. You can specify a single value for all four margins, but you 
-        could also specify the padding individually the as for the margins.
-    */
     padding: 50px;
     background-color: white;
     vertical-align: middle;
     font-size: large;
 }
 
-/* 
-    Links can be styled with CSS as well. There are four states: 
-    link (original state), visited, hover, active (on click).
-    For example, on hover, change the link color to green. Also, hover can be 
-    applied to divs.
-*/
 a:hover {
-    color:green;
+    color:black;
 }
 
-/* 
-    For your custom navbar, you can specify the unordered list style.
-*/
 .navbar ul {
-    /* 
-        Remove bullet points.
-    */
+
     list-style: none;
     width: auto;
     margin: 0 auto;
-    /* 
-        No padding.
-    */
     padding: 0;
-    /* 
-        For navbars use background color that stands out.
-    */
     background-color: black;
     text-align: center;
 }
 
-/*  
-    Style individual list items.
-*/
 .navbar li {
     width: 150 px;
     background-color:black;
-    /* 
-        Show the navbar elements next to each other instead of on top of each 
-        other. 
-    */
     padding: 20px;
     display: inline-block;
     line-height: 20px;
 }
 
-/* 
-    Style links in navbar.
-*/
 .navbar a {
     color:#fff;
     text-decoration: none;
@@ -211,18 +128,8 @@ table, td {
 }
 
 input {
-    /* 
-        Show different input on top of each other instead of next to each other.
-    */
     display: block;
 }
-
-/* 
-    Style iframes.
-*/
-/* iframe {
-    
-} */
 
 .flex-container {
     display: flex;

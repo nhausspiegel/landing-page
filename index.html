@@ -1,101 +1,25 @@
 <!-- 
     COMP 333: Software Engineering
-    Sebastian Zimmeck (szimmeck@wesleyan.edu)
+    Nathan Hausspiegel
 -->
 
-<!--
-    You can use this file as a starting point for any HTML page that you want to
-    create.
-    
-    This is a comment. Comments will not be displayed in the browser. A comment 
-    can go over one or multiple lines.
-
-    Use the !DOCTYPE declaration to explicitly tell the browser receiving this 
-    file that it is an HMTL file. A DOCTYPE associates a particular document
-    with a document type definition (DTD), for example, the formal definition of
-    a particular version of HTML 2.0 - 4.0. The HTML layout engines in modern 
-    web browsers perform DOCTYPE "sniffing" or "switching", wherein the DOCTYPE 
-    in a document determines a layout mode, such as "quirks mode" (for 
-    compatibility) or "standards mode" (for compliance with current standards). 
-    The DOCTYPE is retained in HTML5 as a "mostly useless, but required" header 
-    only to trigger "standards mode" in common browsers.
--->
 <!DOCTYPE HTML>
-<!--
-    After the DOCTYPE, the html document begins as is indicated by the html 
-    root element. You can think of your entire html document as a tree and 
-    the html element as the root from which everything else sprouts.
-    
-    The language attribute is used by web search engines to display search 
-    results in a particular language. E.g. if you are using Google in the US, 
-    you will not see many French pages returned in your results.
--->
+
 <html lang="en">
-<!-- 
-    The head section has all the meta information, i.e., information about our 
-    website that will not be displayed to the user. It tells browsers and search 
-    engines basic information about the page such as the title, the charset, etc.
--->
+
 <head>
-    <!--
-        No end tag is required for meta and link elements. That is the case 
-        because they are non-XHTML tags. Help the browser understand what 
-        characters to render by specifying a character set.
-    -->
+
     <meta charset="utf-8">
-    <!--
-        Users may view your site on a desktop or mobile browser. There is even 
-        the trend of mobile first. The viewport takes care of this for us.
-    -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <!--
-        The title is important for search engine optimization (SEO). It will be 
-        visible to the user in the tab in which the site is opened. Titles 
-        should be unique.
-    -->
+
     <title>Is It A 10?: Rate Music like Your Favorite Melon!</title>
-    <!--
-        You could apply CSS styles in-line, i.e., in your HTML files, as follows:
 
-        <style>
-            p{color:red;}
-        </style>
-
-        This style would turn all font in paragraphs red. Generally, it is a 
-        good idea to use a dedicated Style Sheet to have all styles 
-        systematically in one place and not duplicate those. Include a link as 
-        below in any HTML page where you want to use styles from your Style 
-        Sheet.
-
-        You can have multiple Style Sheets; the browser would use all.
-
-        Just as CSS styles, you can also include JavaScript code in-line in your
-        HTML files using the <script> and </script? opening and closing tags.
-        Place CSS styles/links in the header and JavaScript code/links before the 
-        closing </body> tag. The reason for having Style Sheets in the header is
-        that otherwise browsers would need to reflow the layout while the user 
-        is trying to interact with the page. If you would not have JavaScript 
-        at the end, browsers in some cases would have to block processing 
-        the HTML while JavaScript code is still being loaded.
-        https://stackoverflow.com/questions/6625773/where-should-i-put-the-css-and-javascript-code-in-an-html-webpage
-        https://stackoverflow.com/questions/436411/where-should-i-put-script-tags-in-html-markup/24070373#24070373
-    -->
     <link rel="stylesheet" href="style_sample.css">
 </head>
  
-<!--
-    The body holds all content that is visible to the user and it determines 
-    the structure of your page.
--->
 <body>
-    <!-- 
-        Everything between two tags, including the tags, is an element. Headings
-        come in six different sizes: <h1></h1> to <h6></h6>. Note that 
-        it is not possible to autonumber headings in HTML. You would need to 
-        write such functionality yourself.
-     -->
-
     <div id="navbar" class="navbar">
         <ul>
             <li><a href="index.html">HOME</a></li>
@@ -115,24 +39,11 @@
 
     <header><h1><i>Is It A 10?</i></h1></header>
 
-    <!-- 
-        Send data to html_sample_2.html.
-    -->
+
     <form class="centered" action="html_sample_2.html">
-        <!-- 
-            Ask for text input.
-        -->
         <input class="form-elements" type="text" value="username">
         <input class="form-elements" type="email" value="password">
-        <!-- 
-            You can have the user submitting data without showing it, which can
-            be useful for a cookie value that you are passing in here, for 
-            example. 
-        -->
         <input type="hidden" name="hidden-field" value="pass-in-cookie-value-here">
-        <!-- 
-            Submit button 
-        -->
         <input class="form-elements" type="submit" value="Login">
     </form>
     <br>
