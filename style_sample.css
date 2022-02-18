@@ -97,6 +97,11 @@ ul {
     font-weight: bold;
 }
 
+.fake-link {
+    color: blue;
+    text-decoration: underline;
+}
+
 #intro-text {
     font-size: large;
 }
