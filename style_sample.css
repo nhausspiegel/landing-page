@@ -22,6 +22,8 @@
 */
 body {
     font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* 
@@ -61,6 +63,15 @@ div {
     padding-right: 50px;
 }
 
+img {
+    max-width: 100px;
+    height: auto;
+}
+
+ul {
+    padding-left: 100px;
+    font-size: large;
+}
 /* 
     There is one white-div in our html_sample.html, which should have white 
     font. 
@@ -106,7 +117,7 @@ div {
     color: white;
 }
 
-.css-box-model-class {
+.box {
     /* 
         Demonstrates the CSS Box Model
     */
@@ -120,7 +131,7 @@ div {
         all borders are affected You can specify in clockwise order: 
         top, right, bottom, left.
     */
-    margin: 10px 10px 10px 20px;
+    margin: auto;
     /* 
         While margins are at the outside of the border, paddings are at the 
         inside. You can specify a single value for all four margins, but you 
@@ -128,6 +139,8 @@ div {
     */
     padding: 50px;
     background-color: white;
+    vertical-align: middle;
+    font-size: large;
 }
 
 /* 
